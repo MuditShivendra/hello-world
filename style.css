@@ -1,0 +1,56 @@
+body{ background-color:red;
+	}
+#frame {width:200px;
+	height:200px;
+	margin:40% 40%;
+	border-bottom:5px solid yellow;
+	postion: relative;}
+#cricketballdown {width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:white;
+	position: absolute;
+	left:46.5%;
+	top:30%;
+	transform:scale(3);
+	animation:cricketdown 14s infinite ;
+	}
+
+@keyframes cricketdown{
+	0%{top:30%; left:46.5% ; animation-timing-function:ease-in; transform:scale(1);background-color:brown;}
+	7.142%{top:71.65%; left46.5% ;animation-timing-function:ease-out;transform:scale(1);background-color:brown;}
+
+14.2849%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+
+	14.285%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+	21.428%{top:68%; left:46.5% ;animation-timing-function:ease-out;transform:scale(3);background-color:white;}
+
+28.5709%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+
+	28.571%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+	35.714%{top:71.65%; left:46.5% ;animation-timing-function:ease-out;transform:scale(1);background-color:brown;}
+
+42.8569%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+
+	42.857%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(3);background-color:white;}	
+	50%{top:68%; left46.5% ; animation-timing-function:ease-out;transform:scale(3);background-color:white;}
+
+57.1419%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+
+	57.142%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+	64.285%{top:71.65%; left46.5% ;animation-timing-function:ease-out;transform:scale(1);background-color:brown;}
+
+71.4279%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+
+	71.428%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+	78.571%{top:68%; left46.5% ;animation-timing-function:ease-out;transform:scale(3);background-color:white;}
+
+85.7139%{top:30%; left:46.5% ;animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+
+	85.714%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+	92.857%{top:71.65%; left46.5% ;animation-timing-function:ease-out;transform:scale(1);background-color:brown;}
+
+99.99%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(1);background-color:brown;}
+
+	100%{top:30%; left:46.5% ; animation-timing-function:ease-in;transform:scale(3);background-color:white;}
+}
